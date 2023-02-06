@@ -1,0 +1,11 @@
+{
+  "name": "simpleweb",
+  "version": "0.0.0",
+  "description": "1st Real Project with Docker and Kubernetes training",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
