@@ -1,0 +1,12 @@
+{
+  "name": "visits",
+  "version": "0.0.0",
+  "description": "Program that counts the number of visits",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "2.8.0"
+  }
+}
