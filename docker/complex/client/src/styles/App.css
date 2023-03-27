@@ -1,9 +1,14 @@
 .App {
   text-align: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 160px;
   pointer-events: none;
 }
 
@@ -15,7 +20,8 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  max-height: 40%;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,8 +30,25 @@
   color: white;
 }
 
+.App .App-header .header-content {
+  max-width: 800px;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.App-body {
+  padding: 40px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .App-body .body-content {
+  max-width: 800px;
 }
 
 @keyframes App-logo-spin {
