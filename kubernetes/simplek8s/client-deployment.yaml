@@ -13,7 +13,7 @@ spec:
         component: web
     spec:
       containers:
-      - name: client
-        image: alexandrevoliveira/multi-client
-        ports:
-          - containerPort: 3000
+        - name: client
+          image: alexandrevoliveira/multi-client
+          ports:
+            - containerPort: 3000
