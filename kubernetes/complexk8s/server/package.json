@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "cors": "2.8.4",
+    "body-parser": "*",
+    "express": "4.16.3",
+    "nodemon": "1.18.3",
+    "pg": "8.0.3",
+    "redis": "2.8.0"
+  }
+}

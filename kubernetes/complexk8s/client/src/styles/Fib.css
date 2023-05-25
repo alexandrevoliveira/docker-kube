@@ -1,0 +1,23 @@
+.pages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.pages a{
+  color: whitesmoke;
+}
+
+.pages a:hover{
+  color: cyan;
+  cursor: pointer;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
